@@ -1,14 +1,14 @@
 import React from "react";
-import Button from "./components/Button";
-import Button2 from "./components/Button2";
-import UseInput from "./components/UseInput";
-import Game from "./components/Game";
-import "./style.css";
+import UseTab from "./components/UseTab";
+import Example from "./components/Button2";
+import Effect from "./components/effect";
+
 function App() {
   return (
     <div className="root">
-      {/* <UseInput /> */}
-      <Game />
+      {/* <UseTab /> */}
+      {/* <Example /> */}
+      <Effect />
     </div>
   );
 }
